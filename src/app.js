@@ -6,6 +6,7 @@ const forecast = require("./utils/forecast");
 
 const app = express();
 
+
 // define paths for express congif
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewPath = path.join(__dirname, "../templates/views");
